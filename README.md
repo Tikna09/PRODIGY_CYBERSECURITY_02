@@ -24,24 +24,24 @@ RGB channels are interchanged for added confusion and randomness.
 The modified pixel matrix is converted back into an encrypted image.
 5.6 Decryption
 Reverse operations restore the original image using the same key.
-6. Technologies Used
+# Technologies Used
 Language: Python
 Libraries: OpenCV/Pillow, NumPy
 Tools: VS Code / PyCharm
 Version Control: GitHub
-7. Applications
+# Applications
 Secure transmission of sensitive images
 Protection of medical and forensic visuals
 Privacy in surveillance footage
 Safe cloud storage of photographs
-8. Advantages
+# Advantages
 Fast and lightweight
 Key-based reversible encryption
 Easy to implement
 Works with most image formats
-9. Limitations
+# Limitations
 Not as strong as advanced cryptographic systems
 Security depends on key complexity
 Basic pixel operations may be vulnerable to high-level attacks
-10. Conclusion
+# Conclusion
 The project successfully shows how pixel manipulation can be used to encrypt images in a simple and efficient way. By shuffling pixels, modifying their values, and swapping channels, the original image becomes fully distorted and secure. The method offers a practical and lightweight solution for basic image protection and can be expanded into more advanced encryption systems
