@@ -1,17 +1,17 @@
-1. Introduction
+# Introduction
 This project focuses on securing digital images by manipulating their pixel values and positions. Instead of using traditional heavy encryption algorithms, the method works directly on the image matrix, altering pixel arrangements and intensities to produce a distorted, unreadable result. Only the correct key can reverse these steps, making the technique fast, lightweight, and effective for protecting sensitive images.
-2. Objectives
+# Objectives
 To apply pixel-level transformations for image encryption.
 To convert the original image into an unreadable format using simple operations.
 To ensure a fully reversible process using a secret key.
 To demonstrate a fast and efficient technique for image security.
-3. Problem Statement
+# Problem Statement
 Images shared or stored online can be easily viewed or misused. There is a need for a quick and simple method that encrypts the image at pixel level, making it visually inaccessible without the correct key.
-4. Scope of the Project
+# Scope of the Project
 Supports RGB and grayscale images.
 Suitable for learning, research, and basic security applications.
 Can be extended into more advanced encryption methods.
-5. Methodology
+# Methodology
 5.1 Pixel Extraction
 The image is converted into a pixel matrix for easy manipulation.
 5.2 Pixel Shuffling
