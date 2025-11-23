@@ -12,17 +12,17 @@ Supports RGB and grayscale images.
 Suitable for learning, research, and basic security applications.
 Can be extended into more advanced encryption methods.
 # Methodology
-5.1 Pixel Extraction
+1 Pixel Extraction
 The image is converted into a pixel matrix for easy manipulation.
-5.2 Pixel Shuffling
+2 Pixel Shuffling
 Rows, columns, or blocks are rearranged based on a secret key to hide the original structure.
-5.3 Pixel Value Modification
+3 Pixel Value Modification
 Pixel values are altered using simple operations like XOR, addition, subtraction, or channel reversal.
-5.4 Channel Swapping
+4 Channel Swapping
 RGB channels are interchanged for added confusion and randomness.
-5.5 Encrypted Image Generation
+5 Encrypted Image Generation
 The modified pixel matrix is converted back into an encrypted image.
-5.6 Decryption
+6 Decryption
 Reverse operations restore the original image using the same key.
 # Technologies Used
 Language: Python
