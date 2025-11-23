@@ -24,6 +24,13 @@ RGB channels are interchanged for added confusion and randomness.
 The modified pixel matrix is converted back into an encrypted image.
 6 Decryption
 Reverse operations restore the original image using the same key.
+
+<img width="798" height="504" alt="Screenshot 2025-11-23 083748" src="https://github.com/user-attachments/assets/2bdd5056-4e81-420a-ad93-a3e4fad7ca01" />
+
+<img width="799" height="489" alt="Screenshot 2025-11-23 083824" src="https://github.com/user-attachments/assets/5e8d9c35-3efe-4076-bf7b-6e42c19032cb" />
+
+<img width="788" height="453" alt="11" src="https://github.com/user-attachments/assets/9b9029db-c533-4986-bd46-80c1fd67cdbd" />
+
 # Technologies Used
 Language: Python
 Libraries: OpenCV/Pillow, NumPy
